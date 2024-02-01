@@ -1,0 +1,62 @@
+
+.summary-page {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.summary-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.summary-header img {
+  width: 100px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.summary-header h1 {
+  font-size: 1.8em;
+  margin-left: 20px;
+}
+
+.rating {
+  font-size: 1.2em;
+}
+
+.summary-content {
+  line-height: 1.6;
+}
+
+.description {
+  margin-bottom: 20px;
+}
+
+.details {
+  margin-bottom: 20px;
+}
+
+.official-site a,
+.booking-button {
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  display: inline-block;
+  transition: background-color 0.3s;
+  margin-right: 10px;
+}
+
+.official-site a:hover,
+.booking-button:hover {
+  background-color: #2980b9;
+}
